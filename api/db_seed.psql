@@ -1,0 +1,11 @@
+-- Active: 1726762360150@@127.0.0.1@5432@interview@public
+CREATE TABLE IF NOT EXISTS students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    grade INT,
+)
+
+INSERT INTO
+    students (student_id, name, grade)
+VALUES (1, 'Bobby Tables', 3) (2, 'Claude Stripe', 12),
+    (3, 'Glorp', 7);

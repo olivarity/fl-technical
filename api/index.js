@@ -1,9 +1,3 @@
-import Koa from 'koa';
-
-const app = new Koa();
-
-app.use(async ctx => {
-  ctx.body = 'o7 from Koa';
-});
+import { app } from "./src/index.js";
 
 app.listen(3000);
